@@ -1,6 +1,6 @@
 # LLamasoft API Development Exercise
 
-The goal of this exercise to have you dive in and get your hands dirty with some code, while also having you dig in to some concepts to spur converation.
+The goal of this exercise to have you dive in and get your hands dirty with some code, while also having you dig in to some concepts to spur conversation.
 
 ## Requirements
 
@@ -23,12 +23,11 @@ We are using numerous technologies to aid in our development.
 
 1) Pull code:
     ```
-    git clone git:address
+    git clone [The personal GitHub repository provided to you]
     ```
 1) Open the the solution, BakeryExercise.sln
-1) Make sure BakerExercise.Server is set as the startup project
+1) Make sure BakeryExercise.Server is set as the startup project
 1) You can start debugging by clicking the green play button, or pressing F5
-    [Insert image here]
 1) The solution should build and open a console window, as well your default web browser. Note: If your browser does not open and the service is running, you can open your browser of choice and navigate to http://localhost:5000/swagger/index.html
 1) You should now see Swagger in your browser window.
 
@@ -131,6 +130,10 @@ Notes:
 1) What areas of the code are important for testing? What areas are lacking tests that should have them? What other sorts of tests should our application support?
 1) You'll notice that our controller methods all return a Task. What are the benefits of Tasks in C#?
 1) Our application uses the "Basic" authentication schema. Is this a good choice? How about how we store user credentials?
+
+### Submitting your work
+
+To submit your work, please enter a pull request to the master branch of your repository. Once that is done, let your recruiter know, and we will begin reviewing your entry.
 
 ## EF Notes
 
