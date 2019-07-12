@@ -8,6 +8,6 @@ namespace BakeryExercise.Controllers.DTO
     {
         public Guid PortionId { get; set; }
         public Guid FoodId { get; set; }
-        public double Amount { get; set; }
+        public double Amount { get; set; } //This datatype does not match the Portions.Amount datatype in EntityFramework.
     }
 }
